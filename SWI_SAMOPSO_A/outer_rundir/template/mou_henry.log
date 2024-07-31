@@ -1,0 +1,25 @@
+time,elapsed_seconds,message
+2023-10-28 20:14:13,7.915e-06,PEST++ performance logger started
+2023-10-28 20:14:13,8.7144e-05,starting to process control file
+2023-10-28 20:14:13,0.00484851,finished processing control file
+2023-10-28 20:14:13,0.00158367,initializing MOEA process
+2023-10-28 20:14:13,0.000138109,using 'nsga2' env selector
+2023-10-28 20:14:13,7.124e-06,using binary tournament mating pool selector
+2023-10-28 20:14:13,5.34e-06,'mou_save_population_every' less than/equal to zero, not saving generation-specific populations (and archives)
+2023-10-28 20:14:13,2.9876e-05,'opt_dec_var_groups' passed, using 11 adjustable parameters as decision variables
+2023-10-28 20:14:13,1.078e-05,number of decision variables:  11
+2023-10-28 20:14:13,5.881e-06,max run fail:  3
+2023-10-28 20:14:13,5e-06,'opt_chance_points' = SINGLE, evaluting chance at representative point
+2023-10-28 20:14:13,4.3271e-05,initializing constraints
+2023-10-28 20:14:13,7.7546e-05,using particle swarm generator
+2023-10-28 20:14:13,0.000515691,processing dv population file henry_LHS.dv_pop.csv
+2023-10-28 20:14:13,9.949e-06,loading dv population from csv file henry_LHS.dv_pop.csv
+2023-10-28 20:14:13,0.00191724,dv population with 100 members read from 'henry_LHS.dv_pop.csv'
+
+2023-10-28 20:14:13,0.000200087,checking for denormal values in dv population
+2023-10-28 20:14:13,0.00240844, saved initial dv population to  mou_henry.0.dv_pop.csv
+2023-10-28 20:14:13,7.524e-06,running initial population
+2023-10-28 20:14:13,6.021e-06,running initial population of size 100
+2023-10-28 20:14:13,0.000747146,running population of size  100
+2023-10-28 20:14:13,7.655e-06,queuing 100 runs
+2023-10-28 20:14:13,0.00218239,making runs

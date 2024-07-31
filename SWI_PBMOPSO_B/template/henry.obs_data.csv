@@ -1,0 +1,7 @@
+obsnme,obsval,weight,obgnme
+mean_conc,35,1,less_than
+salinity,1,1,less_than
+total_pump_rate,28.5,1,greater_than
+ar_rate_total,8,1,less_than
+wetland_dd,5.75,1,less_than
+ar_rate_t,8,1,less_than

@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+
+module load python
+module load modflow
+
+#
+workerdir=worker$1
+#
+mkdir -p $MEMDIR/mou_henry/$workerdir
+#
+cp -r template/* $MEMDIR/mou_henry/$workerdir/
+#
+cd $MEMDIR/mou_henry/$workerdir
+#
+
+./pestpp-mou mou_henry.pst /H c384:4018

@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+
+module load python
+module load R/4.3.1
+
+#
+workerdir=worker$1
+#
+mkdir -p $MEMDIR/mou_bm4/$workerdir
+#
+cp -r template/* $MEMDIR/mou_bm4/$workerdir/
+#
+cd $MEMDIR/mou_bm4/$workerdir
+#
+
+./pestpp-mou mou_bm4.pst /H c068:4016

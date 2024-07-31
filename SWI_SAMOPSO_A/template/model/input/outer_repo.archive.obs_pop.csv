@@ -1,0 +1,3 @@
+real_name,mean_conc,salinity,total_pump_rate,ar_rate_total,wetland_dd,ar_rate_t,pf_salinity,pf_wetland_dd,mean_conc_sd,salinity_sd,ar_rate_total_sd,wetland_dd_sd
+gen=299_member=29899_pso,0.0552202,0.0552202,28.5,7.70048,5.32725,7.70048,1,1,0,0,0,0
+gen=298_member=29809_pso,0.235343,0.235343,28.6635,7.48844,5.44505,7.48844,1,1,0,0,0,0

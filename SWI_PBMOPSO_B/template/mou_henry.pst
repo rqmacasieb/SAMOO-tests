@@ -1,0 +1,31 @@
+pcf version=2
+* control data keyword
+pestmode                                 estimation
+noptmax                                 100
+svdmode                                 1
+maxsing                          10000000
+eigthresh                           1e-06
+eigwrite                                1
+mou_objectives                 ar_rate_total,mean_conc
+opt_dec_var_groups             dv_pars
+panther_echo                   True
+mou_risk_objective             False
+mou_generator                  pso
+mou_population_size            100
+mou_max_archive_size	       100
+mou_pso_alpha                  2
+mou_pso_cognitive_const	       1.5
+mou_dv_population_file         henry_LHS.dv_pop.csv
+mou_save_population_every      1
+* parameter groups external
+henry.pargp_data.csv
+* parameter data external
+henry.par_data.csv
+* observation data external
+henry.obs_data.csv
+* model command line
+python forward_run.py
+* model input external
+henry.tplfile_data.csv
+* model output external
+henry.insfile_data.csv
